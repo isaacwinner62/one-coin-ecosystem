@@ -33,18 +33,18 @@ const bodyy = document.querySelector("body");
 
 
 
-// window.addEventListener("load", () => {
-//     // Show the changes after 2 seconds
-//     setTimeout(() => {
-//         coverImg.style.display = "flex";
-//         allElement.style.display = "none";
-//         bodyy.style.backgroundColor = "black";
-//     }, 0);
+window.addEventListener("load", () => {
+    // Show the changes after 2 seconds
+    setTimeout(() => {
+        coverImg.style.display = "flex";
+        allElement.style.display = "none";
+        bodyy.style.backgroundColor = "black";
+    }, 0);
 
-//     // Revert the changes after 3 seconds
-//     setTimeout(() => {
-//         coverImg.style.display = "none";
-//         allElement.style.display = "block";
-//         bodyy.style.backgroundColor = ""; // Reset to the original background color, you might need to specify the original color if it's not empty
-//     }, 4000);
-// });
+    // Revert the changes after 3 seconds
+    setTimeout(() => {
+        coverImg.style.display = "none";
+        allElement.style.display = "block";
+        bodyy.style.backgroundColor = ""; // Reset to the original background color, you might need to specify the original color if it's not empty
+    }, 4000);
+});
